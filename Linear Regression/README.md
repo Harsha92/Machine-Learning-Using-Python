@@ -1,4 +1,3 @@
-
 ## Introduction to Linear Regression
 
 __Linear regression__ is a _basic_ and _commonly_ used type of __predictive analysis__.  The overall idea of regression is to examine two things: 
@@ -6,15 +5,15 @@ __Linear regression__ is a _basic_ and _commonly_ used type of __predictive anal
 - Which variables in particular are __significant predictors__ of the outcome variable, and in what way they do __impact__ the outcome variable?  
 
 These regression estimates are used to explain the __relationship between one dependent variable and one or more independent variables__.  The simplest form of the regression equation with one dependent and one independent variable is defined by the formula :<br/>
-$y = \beta_0 + \beta_1x$
+𝑦=𝛽0+𝛽1𝑥
 
-![image.png](attachment:image.png)
+[![Linear Regression](http://www.sthda.com/english/sthda-upload/images/machine-learning-essentials/linear-regression.png "Linear Regression")](http://www.sthda.com/english/sthda-upload/images/machine-learning-essentials/linear-regression.png "Linear Regression")
 
 What does each term represent?
-- $y$ is the response
-- $x$ is the feature
-- $\beta_0$ is the intercept
-- $\beta_1$ is the coefficient for x
+- y is the response
+- x is the feature
+- 𝛽0 is the intercept
+- 𝛽1 is the coefficient for x
 
 
 Three major uses for __regression analysis__ are: 
