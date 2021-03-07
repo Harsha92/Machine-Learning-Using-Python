@@ -29,3 +29,11 @@ While taking errors into consideration the equation of linear regression is:
 [![](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)
 
 Generally speaking, coefficients are estimated using the **least squares criterion**, which means we are find the line (mathematically) which minimizes the **sum of squared residuals** (or "sum of squared errors"):
+
+### Assumptions of Linear Regression
+
+1. There should be a linear and additive relationship between dependent (response) variable and independent (predictor) variable(s). A linear relationship suggests that a change in response Y due to one unit change in X¹ is constant, regardless of the value of X¹. An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
+2. There should be no correlation between the residual (error) terms. Absence of this phenomenon is known as Autocorrelation.
+3. The independent variables should not be correlated. Absence of this phenomenon is known as multicollinearity.
+4. The error terms must have constant variance. This phenomenon is known as homoskedasticity. The presence of non-constant variance is referred to heteroskedasticity.
+5. The error terms must be normally distributed.
