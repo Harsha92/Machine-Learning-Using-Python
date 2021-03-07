@@ -50,7 +50,7 @@ Below are the types of error we will be calculating for our _linear regression m
 
 ### Model Evaluation using __metrics.__
 __Mean Absolute Error__ (MAE) is the mean of the absolute value of the errors:
-$$\frac 1n\sum_{i=1}^n|y_i-\hat{y}_i|$$
+frac 1n\sum_{i=1}^n|y_i-\hat{y}_i|
 
 __Mean Squared Error__ (MSE) is the mean of the squared errors:
 $$\frac 1n\sum_{i=1}^n(y_i-\hat{y}_i)^2$$
