@@ -53,11 +53,11 @@ __Mean Absolute Error__ (MAE) is the mean of the absolute value of the errors:
 1/𝑛∑𝑖=1𝑛|𝑦𝑖−𝑦̂ 𝑖|
 
 __Mean Squared Error__ (MSE) is the mean of the squared errors:
-$$\frac 1n\sum_{i=1}^n(y_i-\hat{y}_i)^2$$
+1/𝑛∑𝑖=1𝑛(𝑦𝑖−𝑦̂ 𝑖)2
 
 __Root Mean Squared Error__ (RMSE) is the square root of the mean of the squared errors:
 
-$$\sqrt{\frac 1n\sum_{i=1}^n(y_i-\hat{y}_i)^2}$$
+(1/𝑛∑𝑖=1𝑛(𝑦𝑖−𝑦̂ 𝑖)2) ** 0.5
 
 ### Model Evaluation using Rsquared value.
 
