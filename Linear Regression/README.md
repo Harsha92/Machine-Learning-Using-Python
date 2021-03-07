@@ -23,3 +23,8 @@ Three major uses for __regression analysis__ are:
     - how much __additional sales income__ do I get for each additional $1000 spent on marketing?
 - __trend__ forecasting.
     - what will the __price of house__ be in _6 months_?
+
+### Linear Regression Equation with Errors in consideration
+While taking errors into consideration the equation of linear regression is: 
+[![](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)
+Generally speaking, coefficients are estimated using the **least squares criterion**, which means we are find the line (mathematically) which minimizes the **sum of squared residuals** (or "sum of squared errors"):
