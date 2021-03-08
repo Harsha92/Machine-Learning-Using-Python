@@ -13,6 +13,7 @@
 	* 4.4 [**Normal distribution of error terms**](#Section4.4)<br>
 	* 4.5 [**Little or No autocorrelation in the residuals**](#Section4.5)<br>
 
+---
 
 <a name = Section1></a>
 ## Introduction to Linear Regression
@@ -41,6 +42,8 @@ Three major uses for __regression analysis__ are:
 - __trend__ forecasting.
     - what will the __price of house__ be in _6 months_?
 
+---
+
 <a name = Section2></a>
 ## Linear Regression Equation with Errors in consideration
 While taking errors into consideration the equation of linear regression is: 
@@ -48,6 +51,7 @@ While taking errors into consideration the equation of linear regression is:
 
 Generally speaking, coefficients are estimated using the **least squares criterion**, which means we are find the line (mathematically) which minimizes the **sum of squared residuals** (or "sum of squared errors"):
 
+---
 
 <a name = Section3></a>
 ## Model evaluation 
@@ -81,6 +85,7 @@ __Root Mean Squared Error__ (RMSE) is the square root of the mean of the squared
 
 There is alternative to R-squared called **adjusted R-squared** that penalizes model complexity (to control for overfitting).
 
+---
 
 <a name = Section4></a>
 ## Assumptions of Linear Regression
