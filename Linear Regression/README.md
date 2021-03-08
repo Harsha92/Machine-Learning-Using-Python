@@ -15,6 +15,7 @@
 	* 4.5 [**Little or No autocorrelation in the residuals**](#Section4.5)<br>
 
 
+<a name = Section1></a>
 ## Introduction to Linear Regression
 
 __Linear regression__ is a _basic_ and _commonly_ used type of __predictive analysis__.  The overall idea of regression is to examine two things: 
@@ -41,13 +42,15 @@ Three major uses for __regression analysis__ are:
 - __trend__ forecasting.
     - what will the __price of house__ be in _6 months_?
 
-### Linear Regression Equation with Errors in consideration
+<a name = Section2></a>
+## Linear Regression Equation with Errors in consideration
 While taking errors into consideration the equation of linear regression is: 
 [![](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)](https://miro.medium.com/max/875/1*k2bLmeYIG7z7dCyxADedhQ.png)
 
 Generally speaking, coefficients are estimated using the **least squares criterion**, which means we are find the line (mathematically) which minimizes the **sum of squared residuals** (or "sum of squared errors"):
 
 
+<a name = Section3></a>
 ## Model evaluation 
 
 __Error__ is the _deviation_ of the values _predicted_ by the model with the _true_ values.<br/>
@@ -57,6 +60,7 @@ Below are the types of error we will be calculating for our _linear regression m
 - Mean Squared Error
 - Root Mean Squared Error
 
+<a name = Section3.1></a>
 ### Model Evaluation using __metrics.__
 __Mean Absolute Error__ (MAE) is the mean of the absolute value of the errors:
 1/𝑛∑𝑖=1𝑛|𝑦𝑖−𝑦̂ 𝑖|
@@ -68,6 +72,7 @@ __Root Mean Squared Error__ (RMSE) is the square root of the mean of the squared
 
 (1/𝑛∑𝑖=1𝑛(𝑦𝑖−𝑦̂ 𝑖)2) ** 0.5
 
+<a name = Section3.2></a>
 ### Model Evaluation using Rsquared value.
 
 - There is one more method to evaluate linear regression model and that is by using the __Rsquared__ value.<br/>
@@ -78,14 +83,17 @@ __Root Mean Squared Error__ (RMSE) is the square root of the mean of the squared
 There is alternative to R-squared called **adjusted R-squared** that penalizes model complexity (to control for overfitting).
 
 
+<a name = Section4></a>
 ## Assumptions of Linear Regression
 There are 5 basic assumptions of Linear Regression Algorithm:
 
-### 1. Linear Relationship between the features and target:
+<a name = Section4.1></a>
+### Linear Relationship between the features and target
 
 According to this assumption there is linear relationship between the features and target.Linear regression captures only linear relationship.This can be validated by plotting a scatter plot between the features and the target.
 
-### 2.Little or no Multicollinearity between the features:
+<a name = Section4.2></a>
+### Little or no Multicollinearity between the features
 
 Multicollinearity is a state of very high inter-correlations or inter-associations among the independent variables.It is therefore a type of disturbance in the data if present weakens the statistical power of the regression model.Pair plots and heatmaps(correlation matrix) can be used for identifying highly correlated features.
 
@@ -95,15 +103,18 @@ The interpretation of a regression coefficient is that it represents the mean ch
 How multicollinearity can be treated?
 If we have 2 features which are highly correlated we can drop one feature or combine the 2 features to form a new feature,which can further be used for prediction.
 
-### 3.Homoscedasticity Assumption:
+<a name = Section4.3></a>
+### Homoscedasticity
 
 Homoscedasticity describes a situation in which the error term (that is, the “noise” or random disturbance in the relationship between the features and the target) is the same across all values of the independent variables.A scatter plot of residual values vs predicted values is a goodway to check for homoscedasticity.There should be no clear pattern in the distribution and if there is a specific pattern,the data is heteroscedastic.
 
-### 4.Normal distribution of error terms:
+<a name = Section4.4></a>
+### Normal distribution of error terms
 
 The fourth assumption is that the error(residuals) follow a normal distribution.However, a less widely known fact is that, as sample sizes increase, the normality assumption for the residuals is not needed. More precisely, if we consider repeated sampling from our population, for large sample sizes, the distribution (across repeated samples) of the ordinary least squares estimates of the regression coefficients follow a normal distribution. As a consequence, for moderate to large sample sizes, non-normality of residuals should not adversely affect the usual inferential procedures. This result is a consequence of an extremely important result in statistics, known as the central limit theorem.
 
-### 5.Little or No autocorrelation in the residuals:
+<a name = Section4.5></a>
+### Little or No autocorrelation in the residuals
 
 Autocorrelation occurs when the residual errors are dependent on each other.The presence of correlation in error terms drastically reduces model’s accuracy.This usually occurs in time series models where the next instant is dependent on previous instant.
 
