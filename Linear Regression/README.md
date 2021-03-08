@@ -5,8 +5,7 @@
 2. [**Linear Regression Equation with Errors in consideration**](#Section2)<br>
 3. [**Model evaluation**](#Section3)<br>
 	* 3.1 [**Model Evaluation using metrics**](#Section3.1)<br>
-	* 3.2 [**Model Evaluation using metrics**](#Section.3.2)<br>
-	* 3.3 [**Model Evaluation using Rsquared value**](#Section3.3)<br>
+	* 3.2 [**Model Evaluation using Rsquared value**](#Section3.2)<br>
 4. [**Assumptions of Linear Regression**](#Section4)<br>
 	* 4.1 [**Linear Relationship between the features and target**](#Section4.1)<br>
 	* 4.2 [**Little or no Multicollinearity between the features**](#Section4.2)<br>
