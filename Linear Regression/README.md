@@ -1,3 +1,20 @@
+
+# **Table of Contents**
+
+1. [**Introduction to Linear Regression**](#Section1)<br>
+2. [**Linear Regression Equation with Errors in consideration**](#Section2)<br>
+3. [**Model evaluation**](#Section3)<br>
+	* 3.1 [**Model Evaluation using metrics**](#Section3.1)<br>
+	* 3.2 [**Model Evaluation using metrics**](#Section.3.2)<br>
+	* 3.3 [**Model Evaluation using Rsquared value**](#Section3.3)<br>
+4. [**Assumptions of Linear Regression**](#Section4)<br>
+	* 4.1 [**Linear Relationship between the features and target**](#Section4.1)<br>
+	* 4.2 [**Little or no Multicollinearity between the features**](#Section4.2)<br>
+	* 4.3 [**Homoscedasticity**](#Section4.3)<br>
+	* 4.4 [**Normal distribution of error terms**](#Section4.4)<br>
+	* 4.5 [**Little or No autocorrelation in the residuals**](#Section4.5)<br>
+
+
 ## Introduction to Linear Regression
 
 __Linear regression__ is a _basic_ and _commonly_ used type of __predictive analysis__.  The overall idea of regression is to examine two things: 
