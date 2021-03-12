@@ -38,3 +38,18 @@ The logistic function has some nice properties:
 - Takes on an __"s"__ shape
 - Output is bounded by __0 and 1__<br/>
 
+# Applications of Logistic Regression
+
+Logistic Regression was used in __biological sciences__ in early twentieth century. It was then used in many social science applications. For instance,
+- The Trauma and Injury Severity Score (TRISS), which is widely used to __predict mortality in injured patients__, was originally developed by Boyd et al. using logistic regression.<br/> 
+- Many other medical scales used to __assess severity__ of a patient have been developed using logistic regression.<br/>
+- Logistic regression may be used to __predict the risk of developing a given disease__ (e.g. diabetes; coronary heart disease), based on observed characteristics of the patient (age, sex, body mass index, results of various blood tests, etc.).<br/>
+
+Now a days, Logistic Regression have the following applications 
+1. Image segementation and  categorization
+2. Geographic image processing
+3. Handwriting recognition
+4. Detection of  myocardinal infarction
+5. Predict whether a person is depressed or not based on a bag of words from corpus. 
+
+The reason why logistic regression is widely used despite of the state of the art of deep neural network is that logistic regression is very __efficient__ and does __not__ require too much __computational resources__, which makes it __affordable__ to run on production.
