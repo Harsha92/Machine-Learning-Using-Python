@@ -20,3 +20,7 @@ For __Logistic regression__: log-odds of a categorical response being "__true__"
 The Probability P can be found as below
 
 [![](https://camo.githubusercontent.com/c5e464fcd1955db626a19adf846bfb57ab5007e607b040e8f07ac9f579c8a5a1/687474703a2f2f666163756c74792e6361732e7573662e6564752f6d6272616e6e69636b2f72656772657373696f6e2f676966732f6c6f382e676966)](https://camo.githubusercontent.com/c5e464fcd1955db626a19adf846bfb57ab5007e607b040e8f07ac9f579c8a5a1/687474703a2f2f666163756c74792e6361732e7573662e6564752f6d6272616e6e69636b2f72656772657373696f6e2f676966732f6c6f382e676966)
+
+Shown below is the plot showing __linear model__ and __logistic model__: 
+
+[![](https://saedsayad.com/images/LogReg_1.png)](https://saedsayad.com/images/LogReg_1.png)
