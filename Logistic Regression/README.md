@@ -38,6 +38,7 @@ The logistic function has some nice properties:
 - Takes on an __"s"__ shape
 - Output is bounded by __0 and 1__<br/>
 
+---
 # Applications of Logistic Regression
 
 Logistic Regression was used in __biological sciences__ in early twentieth century. It was then used in many social science applications. For instance,
