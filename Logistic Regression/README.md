@@ -7,3 +7,4 @@ Logistic regression is a techinque used for solving the __classification problem
 Both Linear regression and Logistic regression are __supervised learning techinques__. But for the _Regression_ problem the output is __continuous__ unlike the _classification_ problem where the output is __discrete__. <br/>
 - Logistic Regression is used when the __dependent variable(target) is categorical__.<br/>
 - __Sigmoid function__ or logistic function is used as _hypothesis function_ for logistic regression. Below is a figure showing the difference between linear regression and logistic regression, Also notice that logistic regression produces a logistic curve, which is limited to values between 0 and 1. <br/> 
+[![](https://miro.medium.com/max/3750/1*G3imr4PVeU1SPSsZLW9ghA.png)](https://miro.medium.com/max/3750/1*G3imr4PVeU1SPSsZLW9ghA.png)
