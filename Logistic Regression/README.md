@@ -24,3 +24,17 @@ The Probability P can be found as below
 Shown below is the plot showing __linear model__ and __logistic model__: 
 
 [![](https://saedsayad.com/images/LogReg_1.png)](https://saedsayad.com/images/LogReg_1.png)
+
+
+
+In other words:
+
+- Logistic regression outputs the __probabilities of a specific class__.
+- Those probabilities can be converted into __class predictions__.
+
+
+The logistic function has some nice properties:
+
+- Takes on an __"s"__ shape
+- Output is bounded by __0 and 1__<br/>
+
