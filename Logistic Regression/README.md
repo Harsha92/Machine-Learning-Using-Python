@@ -13,6 +13,6 @@ Both Linear regression and Logistic regression are __supervised learning techinq
 # Mathematics behind Logistic Regression
 
 The __odds__ for an event is the __(probability of an event occuring) / (probability of event not occuring)__:
-![image.png](attachment:image.png)
+
 For __Linear regression__: continuous response is modeled as a linear combination of the features: __y = β0 + β1x__<br/>
 For __Logistic regression__: log-odds of a categorical response being "__true__" (1) is modeled as a linear combination of the features:
