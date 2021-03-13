@@ -13,3 +13,25 @@ The purpose of this project is to predict the occurrence of heart attack as per 
 
 ---
 
+<a name = Section3></a>
+# **3. Data Description**
+
+|Id|Feature|Description|
+|:--|:--|:--|
+|01| age             |  Age of the Person |
+|02| sex             |  Gender of the Person |
+|03| cp              |  Chest Pain type |
+|04| trestbps     |  Resting blood pressure |
+|05| chol             |  Serum Cholestoral in mg/dl |
+|06| fbs              |  Fasting blood sugar > 120 mg/dl |
+|07| restecg             |  Resting electrocardiographic results |
+|08| thalach             |  Maximum heart rate achieved |
+|09| exang             |  Exercise induced angina |
+|10| oldpeak             |  ST depression induced by exercise relative to rest |
+|11| slope             |  The slope of the peak exercise ST segment |
+|12| ca             |  number of major vessels (0-3) colored by flourosopy |
+|13| thal             |  thal: 0 = normal; 1 = fixed defect; 2 = reversable defect |
+|14| target             |  target: 0= less chance of heart attack 1= more chance of heart attack|
+
+---
+
