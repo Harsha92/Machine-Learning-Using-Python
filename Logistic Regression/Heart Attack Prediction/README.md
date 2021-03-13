@@ -14,7 +14,7 @@ The purpose of this project is to predict the occurrence of heart attack as per 
 ---
 
 <a name = Section3></a>
-# **3. Data Description**
+# **2. Data Description**
 
 |Id|Feature|Description|
 |:--|:--|:--|
