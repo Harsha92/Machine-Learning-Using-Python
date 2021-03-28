@@ -63,3 +63,18 @@ __Example__:<br/>
 
 ---
 
+# Concept of Homogenity
+
+__Homogenous__ populations are __alike__ and __heterogeneous__ populations are __unlike__.<br/>
+- A heterogenous population is one where individuals are __not similar__ to one another.<br/>
+- For example, you could have a heterogenous population in terms of humans that have migrated from different regions of the world and currently live together. That population would likely be heterogenous in regards to height, hair texture, disease immunity, and other traits because of the varied background and genetics.
+
+__Note__: In real world you would never get this level of homogeniety. So out of the hetrogenous options you need to select the one having maximum homoginiety. To select the feature which provide maximum homoginety we use __gini & entropy__ techniques.
+
+What Decision tree construction algorithm will try to do is to __create a split in such a way that the homogeneity of different pieces must be as high as possible.__
+
+
+
+
+
+
