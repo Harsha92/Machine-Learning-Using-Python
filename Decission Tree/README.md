@@ -84,7 +84,8 @@ Let’s say we have a sample of __30 students__ with three variables:
 
 This is where decision tree helps, it will segregate the students based on all values of three variables and identify the variable, which creates the best homogeneous sets of students (which are heterogeneous to each other). In the snapshot below, you can see that variable __Gender__ is able to identify best homogeneous sets compared to the other two variables.
 
-[![](https://clearpredictions.com/Images/Decision_Tree_Algorithm1.png)](https://clearpredictions.com/Images/Decision_Tree_Algorithm1.png)
+![cric](https://user-images.githubusercontent.com/10387500/112757256-96415680-9006-11eb-8563-f17eb27a8071.PNG)
+
 
 ---
 
