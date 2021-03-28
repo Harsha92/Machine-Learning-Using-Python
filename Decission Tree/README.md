@@ -85,3 +85,26 @@ Let’s say we have a sample of __30 students__ with three variables:
 This is where decision tree helps, it will segregate the students based on all values of three variables and identify the variable, which creates the best homogeneous sets of students (which are heterogeneous to each other). In the snapshot below, you can see that variable __Gender__ is able to identify best homogeneous sets compared to the other two variables.
 
 [![](https://clearpredictions.com/Images/Decision_Tree_Algorithm1.png)](https://clearpredictions.com/Images/Decision_Tree_Algorithm1.png)
+
+---
+
+# How does a tree decide where to split?
+
+The decision of making strategic splits heavily affects a tree’s accuracy. The decision criteria is different for classification and regression trees.
+
+Decision trees use multiple algorithms to decide to split a node in two or more sub-nodes. The creation of sub-nodes increases the homogeneity of resultant sub-nodes. In other words, we can say that purity of the node increases with respect to the target variable. Decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
+
+The algorithm selection is also based on type of target variables. Let’s look at the most commonly used algorithms in decision tree:
+
+ ### Gini Index
+Gini index says, if we select two items from a population at random then they must be of same class and probability for this is 1 if population is pure.
+
+- It works with categorical target variable “Success” or “Failure”.
+- It performs only Binary splits
+- Higher the value of Gini higher the homogeneity.
+- CART (Classification and Regression Tree) uses Gini method to create binary splits.
+
+__Steps to Calculate Gini for a split__
+
+1. Calculate Gini for sub-nodes, using formula sum of square of probability for success and failure (1 `-` p<sup>2</sup> `-` q<sup>2</sup>).
+2. Calculate Gini for split using weighted Gini score of each node of that split
