@@ -1,3 +1,5 @@
+# Introduction
+
 A __decision tree__ is one of most frequently and widely used supervised machine learning algorithms that can perform both __regression and classification tasks.__<br/>
 The intuition behind the decision tree algorithm is simple, yet also very powerful.<br/>
 
