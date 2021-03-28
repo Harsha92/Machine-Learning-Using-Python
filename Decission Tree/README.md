@@ -73,8 +73,17 @@ __Note__: In real world you would never get this level of homogeniety. So out of
 
 What Decision tree construction algorithm will try to do is to __create a split in such a way that the homogeneity of different pieces must be as high as possible.__
 
+__Example__
 
+Let’s say we have a sample of __30 students__ with three variables:
+1. Gender (Boy/ Girl)
+2. Class (IX/ X) and,
+3. Height (5 to 6 ft).<br/>
 
+15 out of these 30 play cricket in leisure time. Now, I want to __create a model to predict who will play cricket during leisure period__? In this problem, we need to segregate students who play cricket in their leisure time based on highly significant input variable among all three.
 
+This is where decision tree helps, it will segregate the students based on all values of three variables and identify the variable, which creates the best homogeneous sets of students (which are heterogeneous to each other). In the snapshot below, you can see that variable __Gender__ is able to identify best homogeneous sets compared to the other two variables.
+
+[![](https://clearpredictions.com/Images/Test.png)](https://clearpredictions.com/Images/Test.png)
 
 
