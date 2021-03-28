@@ -28,6 +28,7 @@ Consider a scenario where a person asks you to lend them your car for a day, and
  - if no, lend them the car.<br/>
 
 [![](https://s3.amazonaws.com/stackabuse/media/decision-trees-python-scikit-learn-1.png)](https://s3.amazonaws.com/stackabuse/media/decision-trees-python-scikit-learn-1.png)
+
 ---
 
 # Important Terminology related to Decision Trees
