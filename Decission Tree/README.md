@@ -1,3 +1,13 @@
+
+# **Table of Contents**
+
+1. [**Introduction**](#Section101)<br>
+2. [**Important Terminology related to Decision Trees**](#Section201)<br>
+3. [**Types of Decision Trees**](#Section301)<br>
+4. [**Concept of Homogenity**](#Section401)<br>
+5. [**How does a tree decide where to split?**](#Section501)<br>
+
+
 <a id = section101></a>
 # Introduction
 
