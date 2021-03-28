@@ -41,3 +41,25 @@ Let’s look at the basic terminology used with Decision trees:
 - __Leaf/ Terminal Node__:<br/> Nodes do not split is called Leaf or Terminal node.
 
 [![](https://miro.medium.com/max/688/1*bcLAJfWN2GpVQNTVOCrrvw.png)](https://miro.medium.com/max/688/1*bcLAJfWN2GpVQNTVOCrrvw.png)
+
+- __Pruning__:<br/> When we remove sub-nodes of a decision node, this process is called pruning. You can say opposite process of splitting.
+- __Branch / Sub-Tree__:<br/> A sub section of entire tree is called branch or sub-tree.
+- __Parent and Child Node__:<br/> A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
+
+---
+
+# Types of Decision Trees
+
+Types of decision tree is based on the __type of target variable__ we have. It can be of two types:
+
+- __Categorical Variable Decision Tree__: <br/>
+ - Decision Tree which has __categorical target variable__ then it called as categorical variable decision tree.
+- __Continuous Variable Decision Tree__:<br/>
+ - Decision Tree has __continuous target variable__ then it is called as Continuous Variable Decision Tree.<br/>
+ 
+__Example__:<br/>
+- Let’s say we have a problem to predict whether a customer will pay his renewal premium with an insurance company (__Yes/ No__).<br/> For this we are predicting values for categorical variable. So, the decision tree approach that will be used is __Categorical Variable Decision Tree.__ <br/>
+- Now, suppose insurance company does not have income details for all customers. But, we know that this is an important variable, then we can build a decision tree to predict customer income based on occupation, product and various other variables.<br/> In this case, we are predicting values for continuous variable. So , This approach is called __Continuous Variable Decision Tree__.
+
+---
+
