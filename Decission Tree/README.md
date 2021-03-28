@@ -39,3 +39,5 @@ Let’s look at the basic terminology used with Decision trees:
 - __Splitting__: <br/>It is a process of dividing a node into two or more sub-nodes.
 - __Decision Node__:<br/> When a sub-node splits into further sub-nodes, then it is called decision node.
 - __Leaf/ Terminal Node__:<br/> Nodes do not split is called Leaf or Terminal node.
+
+[![](https://miro.medium.com/max/688/1*bcLAJfWN2GpVQNTVOCrrvw.png)](https://miro.medium.com/max/688/1*bcLAJfWN2GpVQNTVOCrrvw.png)
