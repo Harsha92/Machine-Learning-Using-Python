@@ -108,3 +108,46 @@ __Steps to Calculate Gini for a split__
 
 1. Calculate Gini for sub-nodes, using formula sum of square of probability for success and failure (1 `-` p<sup>2</sup> `-` q<sup>2</sup>).
 2. Calculate Gini for split using weighted Gini score of each node of that split
+
+
+__Example__: 
+– Referring to example used above, where we want to segregate the students based on target variable ( playing cricket or not ). In the snapshot below, we split the population using two input variables Gender and Class. Now, I want to identify which split is producing more homogeneous sub-nodes using Gini index.
+
+
+__Gini for Root node__: 
+ - 1 `-` (0.5 `*` 0.5) `-` (0.5 `*` 0.5) = 0.50
+ 
+__Split on Gender__:
+
+1. Gini for sub-node __Female__
+  - 1 `-` (0.2 `*` 0.2) `-` (0.8 `*` 0.8) = 0.32
+  
+  
+2. Gini for sub-node __Male__
+  - 1 `-` (0.65 `*` 0.65) `-` (0.35 `*` 0.35) = 0.45
+  
+  
+3. Weighted Gini for Split __Gender__ 
+  -  (10/30) `*` 0.32 `+` (20/30) `*` 0.45 = 0.41
+  
+
+__Split on Class__ : 
+
+1. Gini for sub-node __Class IX__ =
+  - 1 `-` (0.43 `*` 0.43) `-` (0.57 `*` 0.57) = 0.49
+  
+  
+2. Gini for sub-node __Class X__ =
+  - 1 `-` (0.56 `*` 0.56) `-` (0.44 `*` 0.44) = 0.49
+  
+  
+3. Calculate weighted Gini for Split __Class__  
+  - (14/30) `*` 0.51 `+` (16/30) `*` 0.51 = 0.49
+  
+  
+
+
+Above, you can see that:
+__Gini score__ for Split on __Gender__ __`<`__ Gini score for Split on __Class__.<br/>
+Also, __Gini score__ for __Gender__ __`<`__ Gini score for __root node__.<br/>
+Hence, the __node split will take place on Gender.__
