@@ -169,3 +169,77 @@ Information theory is a measure to define this degree of disorganization in a sy
 - If the sample is an __equally divided__ (50% – 50%), it has __entropy of one__.
 
 
+### Entropy can be calculated using formula:
+
+![Entropy](https://user-images.githubusercontent.com/10387500/112757356-2aabb900-9007-11eb-8a1b-92d6f2dc41b9.PNG)
+
+where,<br/>
+__p__ & __q__ is __probability of success and failure__ respectively in that node.<br/> 
+- __Information Gain = 1 - Entropy__.<br/>
+- The model will choose the split which facilitates __maximum information gain__, which in turn means __minimum Entropy__.<br/>
+- So, it chooses the split which has __lowest entropy__ compared to parent node and other splits.
+- __The lesser the entropy, the better it is.__
+
+__Steps to calculate entropy for a split__:
+
+1. Calculate entropy of parent node
+2. Calculate entropy of each individual node of split and 
+3. Calculate weighted average of all sub-nodes available in split.
+4. Caluclate the Information Gain in various split options w.r.t parent node
+5. Choose the split with highest Information Gain.
+
+
+Example: Let’s use this method to identify best split for student example.
+
+ - __Entropy for parent node__
+    - `-` (15/30) log2 (15/30) `–` (15/30) log2 (15/30) = 1.<br/>
+      Here 1 shows that it is a impure node.
+      
+      
+- __Entropy for Female node__ 
+    - `-` (2/10) log2 (2/10) `–` (8/10) log2 (8/10) = 0.72 
+    
+    
+- __Entropy for male node__
+    - `-` (13/20) log2 (13/20) `–` (7/20) log2 (7/20) = 0.93
+    
+    
+- __Entropy for split Gender__ = Weighted entropy of sub`-`nodes 
+   - (10/30) `*` 0.72 + (20/30) `*` 0.93 = 0.86
+   
+-------------------------------------------------------------------------------------
+- __Information Gain for split Gender__ = Entropy of Parent Node `-` Weighted entropy for Split Gender 
+   - 1 `-` 0.86 = 0.14
+-------------------------------------------------------------------------------------
+   
+   
+   
+- __Entropy for Class IX node__,
+   - `-`(6/14) log2 (6/14) `–` (8/14) log2 (8/14) = 0.99
+   
+   
+- __Entropy for Class X node__,
+   - `-`(9/16) log2 (9/16) `–` (7/16) log2 (7/16) = 0.99.
+   
+   
+- __Entropy for split Class__,
+   -  (14/30) `*` 0.99 `+` (16/30) `*` 0.99 = 0.99
+   
+
+-------------------------------------------------------------------------------------
+- __Information Gain for split Class__ = Entropy of Parent Node `-` Weighted entropy for Split Class 
+   - 1 `-` 0.99 = 0.01
+-------------------------------------------------------------------------------------
+
+Observe that:<br/>
+__Information Gain for Split on Gender > Information Gain for Split on Class__,<br/> So, __the tree will split on Gender.__<br/>
+
+
+
+
+
+
+
+
+
+
