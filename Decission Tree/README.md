@@ -151,3 +151,11 @@ Above, you can see that:
 __Gini score__ for Split on __Gender__ __`<`__ Gini score for Split on __Class__.<br/>
 Also, __Gini score__ for __Gender__ __`<`__ Gini score for __root node__.<br/>
 Hence, the __node split will take place on Gender.__
+
+
+### Information Gain:
+Look at the image below and think which node can be described easily.<br/>
+I am sure, your answer is C because it requires less information as all values are similar. On the other hand, B requires more information to describe it and A requires the maximum information.<br/> In other words, we can say that __C is a Pure node, B is less Impure and A is more impure.__
+
+![IG](https://user-images.githubusercontent.com/10387500/112757190-48c4e980-9006-11eb-8ac8-43b87c2a1d01.PNG)
+
