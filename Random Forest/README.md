@@ -34,6 +34,7 @@ __Random Forest algorithm approach__.
 
 If you are running a Random Forest model in your job or class, and you sift through some of the statistics and mathematics behind it, you are in effect applying some of the core concepts of the Wisdom of Crowds in your work. In his book, James Surowiecki lays out some of the basic elements that are required for the Wisdom of Crowds to work. Here’s how it compares to what Random Forest is actually doing.
 
+![WC](https://user-images.githubusercontent.com/10387500/112758209-abb87f80-900a-11eb-84bb-0e21d6defab1.PNG)
 
 
 
