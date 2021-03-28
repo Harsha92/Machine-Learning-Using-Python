@@ -28,3 +28,13 @@ Consider a scenario where a person asks you to lend them your car for a day, and
  - if no, lend them the car.<br/>
 
 [![](https://s3.amazonaws.com/stackabuse/media/decision-trees-python-scikit-learn-1.png)](https://s3.amazonaws.com/stackabuse/media/decision-trees-python-scikit-learn-1.png)
+---
+
+# Important Terminology related to Decision Trees
+
+Let’s look at the basic terminology used with Decision trees:
+
+- __Root Node__: <br/>It represents entire population or sample and this further gets divided into two or more homogeneous sets.
+- __Splitting__: <br/>It is a process of dividing a node into two or more sub-nodes.
+- __Decision Node__:<br/> When a sub-node splits into further sub-nodes, then it is called decision node.
+- __Leaf/ Terminal Node__:<br/> Nodes do not split is called Leaf or Terminal node.
