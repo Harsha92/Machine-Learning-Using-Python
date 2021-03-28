@@ -6,6 +6,13 @@
 3. [**Types of Decision Trees**](#Section301)<br>
 4. [**Concept of Homogenity**](#Section401)<br>
 5. [**How does a tree decide where to split?**](#Section501)<br>
+	* 5.1 [**Gini Index**](#Section502)<br>
+	* 5.2 [**Information Gain**](#Section503)<br>
+	* 5.3 [**Entropy**](#Section504)<br>
+6. [**Advantages of using Decision Tree**](#Section601)<br>
+7. [**Shortcomings of Decision Trees**](#Section701)<br>
+
+---
 
 
 <a id = section101></a>
@@ -186,7 +193,8 @@ Information theory is a measure to define this degree of disorganization in a sy
 
 
 <a id = section504></a>
-### Entropy can be calculated using formula:
+### Entropy
+Entropy can be calculated using formula:
 
 ![Entropy](https://user-images.githubusercontent.com/10387500/112757356-2aabb900-9007-11eb-8a1b-92d6f2dc41b9.PNG)
 
