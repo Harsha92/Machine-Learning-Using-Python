@@ -160,3 +160,12 @@ I am sure, your answer is C because it requires less information as all values a
 
 ![IG](https://user-images.githubusercontent.com/10387500/112757190-48c4e980-9006-11eb-8ac8-43b87c2a1d01.PNG)
 
+Now, we can build a conclusion that:
+- less impure node requires less information to describe it.
+- more impure node requires more information. 
+
+Information theory is a measure to define this degree of disorganization in a system by a parameter known as __Entropy__.
+- If the sample is completely __homogeneous__, then the __entropy is zero__ and<br/>
+- If the sample is an __equally divided__ (50% – 50%), it has __entropy of one__.
+
+
