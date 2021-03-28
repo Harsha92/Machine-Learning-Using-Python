@@ -1,3 +1,4 @@
+<a id = section101></a>
 # Introduction
 
 A __decision tree__ is one of most frequently and widely used supervised machine learning algorithms that can perform both __regression and classification tasks.__<br/>
@@ -31,6 +32,7 @@ Consider a scenario where a person asks you to lend them your car for a day, and
 
 ---
 
+<a id = section201></a>
 # Important Terminology related to Decision Trees
 
 Let’s look at the basic terminology used with Decision trees:
@@ -48,6 +50,7 @@ Let’s look at the basic terminology used with Decision trees:
 
 ---
 
+<a id = section301></a>
 # Types of Decision Trees
 
 Types of decision tree is based on the __type of target variable__ we have. It can be of two types:
@@ -63,6 +66,7 @@ __Example__:<br/>
 
 ---
 
+<a id = section401></a>
 # Concept of Homogenity
 
 __Homogenous__ populations are __alike__ and __heterogeneous__ populations are __unlike__.<br/>
@@ -89,6 +93,7 @@ This is where decision tree helps, it will segregate the students based on all v
 
 ---
 
+<a id = section501></a>
 # How does a tree decide where to split?
 
 The decision of making strategic splits heavily affects a tree’s accuracy. The decision criteria is different for classification and regression trees.
@@ -97,6 +102,7 @@ Decision trees use multiple algorithms to decide to split a node in two or more 
 
 The algorithm selection is also based on type of target variables. Let’s look at the most commonly used algorithms in decision tree:
 
+<a id = section502></a>
  ### Gini Index
 Gini index says, if we select two items from a population at random then they must be of same class and probability for this is 1 if population is pure.
 
@@ -153,7 +159,7 @@ __Gini score__ for Split on __Gender__ __`<`__ Gini score for Split on __Class__
 Also, __Gini score__ for __Gender__ __`<`__ Gini score for __root node__.<br/>
 Hence, the __node split will take place on Gender.__
 
-
+<a id = section503></a>
 ### Information Gain:
 Look at the image below and think which node can be described easily.<br/>
 I am sure, your answer is C because it requires less information as all values are similar. On the other hand, B requires more information to describe it and A requires the maximum information.<br/> In other words, we can say that __C is a Pure node, B is less Impure and A is more impure.__
@@ -169,6 +175,7 @@ Information theory is a measure to define this degree of disorganization in a sy
 - If the sample is an __equally divided__ (50% – 50%), it has __entropy of one__.
 
 
+<a id = section504></a>
 ### Entropy can be calculated using formula:
 
 ![Entropy](https://user-images.githubusercontent.com/10387500/112757356-2aabb900-9007-11eb-8a1b-92d6f2dc41b9.PNG)
@@ -236,6 +243,7 @@ __Information Gain for Split on Gender > Information Gain for Split on Class__,<
 
 ---
 
+<a id = section601></a>
 # Advantages of using Decision Tree
 
 __Easy to Understand__: 
@@ -250,7 +258,7 @@ __Easy to Understand__:
  - Decision tree is considered to be a non-parametric method. This means that decision trees have no assumptions about the space distribution and the classifier structure.
 
 ---
-
+<a id = section701></a>
 # Shortcomings of Decision Trees
  __Over fitting__:
  - Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
