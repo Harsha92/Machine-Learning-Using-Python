@@ -234,6 +234,30 @@ Example: Let’s use this method to identify best split for student example.
 Observe that:<br/>
 __Information Gain for Split on Gender > Information Gain for Split on Class__,<br/> So, __the tree will split on Gender.__<br/>
 
+---
+
+# Advantages of using Decision Tree
+
+__Easy to Understand__: 
+ - Decision tree output is very easy to understand even for people from non-analytical background. It does not require any statistical knowledge to read and interpret them. 
+ - Its graphical representation is very intuitive and users can easily relate their hypothesis.
+- __Less data cleaning required__: 
+ - It requires less data cleaning compared to some other modeling techniques.
+ - It is not influenced by outliers and missing values to a fair degree.
+- __Data type is not a constraint__: 
+ - It can handle both numerical and categorical variables.
+- __Non Parametric Method__: 
+ - Decision tree is considered to be a non-parametric method. This means that decision trees have no assumptions about the space distribution and the classifier structure.
+
+---
+
+# Shortcomings of Decision Trees
+ __Over fitting__:
+ - Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
+- __Not a great contributor for regression__:
+ - While working with continuous numerical variables, decision tree looses information when it categorizes variables in different categories.
+ 
+ ---
 
 
 
