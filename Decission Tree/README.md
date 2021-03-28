@@ -111,7 +111,7 @@ __Steps to Calculate Gini for a split__
 
 
 __Example__: 
-– Referring to example used above, where we want to segregate the students based on target variable ( playing cricket or not ). In the snapshot below, we split the population using two input variables Gender and Class. Now, I want to identify which split is producing more homogeneous sub-nodes using Gini index.
+– Referring to example used above, where we want to segregate the students based on target variable ( playing cricket or not ). In this case we split the population using two input variables Gender and Class. Now, I want to identify which split is producing more homogeneous sub-nodes using Gini index.
 
 
 __Gini for Root node__: 
