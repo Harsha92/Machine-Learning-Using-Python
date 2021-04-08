@@ -31,6 +31,12 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 
 ---
 
+<a name = Section501></a>
+# Feature Engineering
+
+
+---
+
 <a name = Section701></a>
 # Model Comparission
 
