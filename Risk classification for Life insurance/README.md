@@ -35,6 +35,10 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 # Feature Engineering
 
 - From the distributio of [Response](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Response.png "Response") feature we can see that Class 8 has the highest distribution. We will assume this as clean and accepted policies on standard underwriting terms. Rest other classes can be considered as policies rejected or accepted at extra terms and conditions
+- Most of the policies for the [over_weight](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/BMI_Wt.png "over_weight") category people are either rejected or accepted with additional terms and conditions
+- Most of the policies for [middle aged](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Age_Response.png "middle aged") and old people are rejected or accepted with additional terms and conditions. Also we can see that Young aged people have high rate of acceptance of policies with standard terms and conditions compared with other age groups
+
+
 ---
 
 <a name = Section701></a>
