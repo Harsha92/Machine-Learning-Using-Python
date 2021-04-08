@@ -12,7 +12,6 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 <a name = Section301></a>
 # Data Description
 
-<br>  </br>
 
 | Feature  | Description  |
 | ------------ | ------------ |
