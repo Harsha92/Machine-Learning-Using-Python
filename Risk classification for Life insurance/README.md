@@ -1,6 +1,6 @@
 
 <a name = Section101></a>
-# Problem Statement
+# Project Description
 
 In this dataset, we are provided over a hundred variables describing attributes of life insurance applicants. The task is to predict the "Response" variable for each Id in the test set. "Response" is an ordinal measure of risk that has 8 levels.
 
