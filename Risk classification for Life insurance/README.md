@@ -8,3 +8,6 @@ We will do a binary classification by altering the target variable. Based on the
 We are making 0 to 7 as one class (0 - which mean approved with additional terms and conditions or rejected) and 8 as another class (1 - which means approved)
 
 ---
+
+<a name = Section701></a>
+# Model Comparission
