@@ -11,3 +11,7 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 
 <a name = Section701></a>
 # Model Comparission
+
+[![Model Comparission](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Model%20Comparision.PNG "Model Comparission")](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Model%20Comparision.PNG "Model Comparission")
+
+---
