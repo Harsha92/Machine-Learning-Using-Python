@@ -34,7 +34,7 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 <a name = Section501></a>
 # Feature Engineering
 
-
+- From the distributio of [Response](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Response.png "Response") feature we can see that Class 8 has the highest distribution. We will assume this as clean and accepted policies on standard underwriting terms. Rest other classes can be considered as policies rejected or accepted at extra terms and conditions
 ---
 
 <a name = Section701></a>
