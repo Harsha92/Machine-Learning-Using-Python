@@ -13,7 +13,7 @@ We are making 0 to 7 as one class (0 - which mean approved with additional terms
 # Model Comparission
 
 - From the above results we can see that the Random Forest with Hyperparameter tuning has given us the best performance
-- 
+
 [![Model Comparission](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Model%20Comparision.PNG "Model Comparission")](https://raw.githubusercontent.com/Harsha92/Machine-Learning-Using-Python/main/Risk%20classification%20for%20Life%20insurance/Images/Model%20Comparision.PNG "Model Comparission")
 
 ---
