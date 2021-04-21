@@ -13,6 +13,6 @@ Hence, the management has contracted an HR analytics firm to understand what fac
 
 
 Goal of the case study
-You are required to model the probability of attrition using a logistic regression. The results thus obtained will be used by the management to understand what changes they should make to their workplace, in order to get most of their employees to stay.
+You are required to model the probability of attrition using a Decision Tree. The results thus obtained will be used by the management to understand what changes they should make to their workplace, in order to get most of their employees to stay.
 
 [![](https://www.techfunnel.com/wp-content/uploads/2020/04/employee-attrition.jpg)](https://www.techfunnel.com/wp-content/uploads/2020/04/employee-attrition.jpg)
